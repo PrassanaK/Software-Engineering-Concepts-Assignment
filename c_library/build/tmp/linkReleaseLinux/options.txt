@@ -1,0 +1,6 @@
+-shared
+-Wl,-soname,libexample_c_library.so
+-o
+/home/19097457/Documents/SEC/SEC_ASSIGNMENT_2/Sec_Assignment_2/c_library/build/lib/main/release/linux/libexample_c_library.so
+/home/19097457/Documents/SEC/SEC_ASSIGNMENT_2/Sec_Assignment_2/c_library/build/obj/main/release/linux/3p7nvqbhb3qzd5dd3w3jbxjw7/example_c_library.o
+-m64

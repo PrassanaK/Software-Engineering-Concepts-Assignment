@@ -1,0 +1,12 @@
+plugins{
+    id 'java'
+}
+
+repositories{
+    jcenter()//repository where apache commons library is retrieved from
+}
+
+dependencies{
+    compile "org.apache.commons:commons-csv:1.5"//apache commons library
+    compile project(':api_interfaces')//this subproject depends on the api_interfaces being compiled first
+}

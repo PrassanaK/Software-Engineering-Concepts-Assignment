@@ -1,0 +1,11 @@
+plugins{
+    id 'java'
+}
+
+repositories{
+    jcenter()//repository where libraries are retrieved from
+}
+
+dependencies{
+    implementation 'org.python:jython-slim:2.7.2'//jythin dependency
+}

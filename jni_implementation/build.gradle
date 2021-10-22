@@ -1,0 +1,12 @@
+plugins{
+    id 'java'
+}
+
+repositories{
+    jcenter()
+}
+
+dependencies{
+    compile project(':api_interfaces')//This subproject requires that the api_interfaces subproject is compiled first
+}
+
